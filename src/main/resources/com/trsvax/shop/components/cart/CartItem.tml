@@ -1,0 +1,17 @@
+<t:container
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+      
+     <t:dynamic  template="prop:template">
+     <p:deleteLink>
+    	 <t:eventlink event="delete" context="index">delete</t:eventlink>
+     </p:deleteLink>
+     <p:updateLink>
+    	 <t:linkSubmit class="updatable" event="update">update</t:linkSubmit>
+     </p:updateLink>
+     <p:quantity>
+     	<t:textfield t:id="quantity" class="cartQuantity form-control" value="item.quantity" validate="required" type="number" size="2" />
+     </p:quantity>
+     </t:dynamic>
+      
+</t:container>

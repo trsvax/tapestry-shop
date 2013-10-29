@@ -1,0 +1,14 @@
+<div class="row"
+	xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+	xmlns:p="tapestry:parameter">
+
+	<div class="col-md-8">
+		${item.description}<br />
+		<a id="param:deleteLink">delete</a>
+	</div>
+	<div class="col-md-2">${item.price}</div>
+	<div class="col-md-2">
+		<input id="param:quantity"/>
+		<a id="param:updateLink">update</a>
+	</div>
+</div>

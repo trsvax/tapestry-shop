@@ -1,0 +1,15 @@
+<t:container
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+      
+     <t:dynamic  template="prop:template">
+     <p:deleteLink>
+     </p:deleteLink>
+     <p:updateLink>
+     </p:updateLink>
+     <p:quantity>
+     	${item.quantity}
+     </p:quantity>
+     </t:dynamic>
+      
+</t:container>

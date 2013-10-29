@@ -1,0 +1,7 @@
+<t:container
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+      xmlns:p="tapestry:parameter">
+      
+	<t:select t:id="month" value="value" model="months" validate="required" blankLabel="Month" blankOption="always"/>
+      
+</t:container>

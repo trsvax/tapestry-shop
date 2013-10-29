@@ -1,0 +1,19 @@
+<div class="row cartItem"
+	xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+	xmlns:p="tapestry:parameter">
+	
+	<div class="col-md-3 col-sm-3 col-xs-3">
+	<img src="${item.thumbnailURL}" width="100%"/>
+	</div>
+
+	<div class="col-md-5 col-sm-4 col-xs-4">
+		${item.description}<br />
+		<span class="leadTime">Usually Ships within 2 to 3 days</span><br/>
+		<a id="param:deleteLink">delete</a>
+	</div>
+	<div class="col-md-2 col-sm-2 col-xs-2 text-right money">${item.price}</div>
+	<div class="col-md-2 col-sm-3 col-xs-3">
+		<input id="param:quantity"/>
+		<a id="param:updateLink">update</a>
+	</div>
+</div>
