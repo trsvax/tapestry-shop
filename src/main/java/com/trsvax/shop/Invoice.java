@@ -47,5 +47,6 @@ public interface Invoice {
 	public Boolean getNewsLetter();
 	public void setNewsLetter(Boolean newsLetter);
 	
+	public BigDecimal getDiscountAmount();
 
 }

@@ -9,6 +9,7 @@
       	.sidebar { background-color: #C0DBF2;}
       	.leadTime { color: #009900 }
       	.money { color: #990000 }
+      	.cartItem .cartQuantity { width: 4em; float: right;}
       </style>
       <h1>Shopping Cart</h1>
       
@@ -46,7 +47,7 @@
       		<div class="col-md-10 col-md-offset-1 well subtotal">
       		<strong>Subtotal ${itemCount}: <span class="money">$${subTotal}</span></strong>
       		<t:if test="invoice.discount">
-      		<br/><strong>Discount: <span class="money">$${invoice.discount}</span></strong>
+      		<br/><strong>Discount: <span class="money">$${invoice.discountAmount}</span></strong>
       		</t:if>
       		</div>
       	</div>
